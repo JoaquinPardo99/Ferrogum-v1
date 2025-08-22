@@ -103,6 +103,11 @@ export const translations = {
         hemoglobin: "Incremento promedio en hemoglobina",
         adherence: "Adherencia al tratamiento",
         sideEffects: "Efectos secundarios reportados"
+      },
+      stats: {
+        micronutrients: "Micronutrientes Clave",
+        adherence: "Adherencia al Tratamiento",
+        gummies: "Gomitas por Frasco"
       }
     },
     // Products Section
@@ -266,6 +271,11 @@ export const translations = {
         hemoglobin: "Average increase in hemoglobin",
         adherence: "Treatment adherence",
         sideEffects: "Reported side effects"
+      },
+      stats: {
+        micronutrients: "Key Micronutrients",
+        adherence: "Treatment Adherence",
+        gummies: "Gummies per Bottle"
       }
     },
     // Products Section
@@ -429,6 +439,11 @@ export const translations = {
         hemoglobin: "血红蛋白平均增长",
         adherence: "治疗依从性",
         sideEffects: "报告的副作用"
+      },
+      stats: {
+        micronutrients: "关键微量营养素",
+        adherence: "治疗依从性",
+        gummies: "每瓶软糖数量"
       }
     },
     // Products Section
