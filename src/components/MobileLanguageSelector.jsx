@@ -1,14 +1,15 @@
 import React from 'react'
 import { Globe, Check } from 'lucide-react'
 import { useLanguage } from '../contexts/LanguageContext'
+import FlagIcon from './FlagIcon'
 
 const MobileLanguageSelector = ({ onLanguageChange }) => {
   const { currentLanguage, setLanguage } = useLanguage()
 
   const languages = [
-    { code: 'es', name: 'Español', flag: '🇵🇪' },
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'zh', name: '中文', flag: '🇨🇳' }
+    { code: 'es', name: 'Español', flagCode: 'PE' },
+    { code: 'en', name: 'English', flagCode: 'US' },
+    { code: 'zh', name: '中文', flagCode: 'CN' }
   ]
 
   const handleLanguageChange = (languageCode) => {
@@ -33,7 +34,9 @@ const MobileLanguageSelector = ({ onLanguageChange }) => {
             className={`mobile-language-option ${currentLanguage === language.code ? 'active' : ''}`}
             onClick={() => handleLanguageChange(language.code)}
           >
-            <span className="flag">{language.flag}</span>
+            <span className="flag">
+              <FlagIcon country={language.flagCode} size={20} />
+            </span>
             <span className="name">{language.name}</span>
             {currentLanguage === language.code && (
               <Check size={20} className="check-mark" />

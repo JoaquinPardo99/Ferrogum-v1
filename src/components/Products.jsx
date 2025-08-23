@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Check, Star, Zap, Heart } from 'lucide-react'
+import { Check, Star, Clock, Heart } from 'lucide-react'
 import { useTranslation } from '../hooks/useTranslation'
 
 const Products = ({ isLoaded = true }) => {
@@ -72,8 +72,8 @@ const Products = ({ isLoaded = true }) => {
                   <span>{t('products.highlights.certified')}</span>
                 </div>
                 <div className="highlight-item">
-                  <Zap size={20} />
-                  <span>{t('products.highlights.available')}</span>
+                  <Clock size={20} />
+                  <span>{t('products.highlights.duration')}</span>
                 </div>
                 <div className="highlight-item">
                   <Heart size={20} />

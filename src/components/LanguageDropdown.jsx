@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { ChevronDown, Check } from 'lucide-react'
 import { useLanguage } from '../contexts/LanguageContext'
+import FlagIcon from './FlagIcon'
 
 const LanguageDropdown = () => {
   const { currentLanguage, setLanguage } = useLanguage()
@@ -11,9 +12,9 @@ const LanguageDropdown = () => {
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 })
 
   const languages = [
-    { code: 'es', name: 'Español', flag: '🇵🇪' },
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'zh', name: '中文', flag: '🇨🇳' }
+    { code: 'es', name: 'Español', flagCode: 'PE' },
+    { code: 'en', name: 'English', flagCode: 'US' },
+    { code: 'zh', name: '中文', flagCode: 'CN' }
   ]
 
   const currentLang = languages.find(lang => lang.code === currentLanguage)
@@ -60,7 +61,9 @@ const LanguageDropdown = () => {
         onClick={handleToggleDropdown}
       >
         <div className="current-language">
-          <span className="flag">{currentLang?.flag}</span>
+          <span className="flag">
+            <FlagIcon country={currentLang?.flagCode} size={16} />
+          </span>
           <span className="name">{currentLang?.name}</span>
         </div>
         <ChevronDown size={16} className="chevron" />
@@ -84,7 +87,9 @@ const LanguageDropdown = () => {
               className={`language-dropdown-item ${currentLanguage === language.code ? 'active' : ''}`}
               onClick={() => handleLanguageChange(language.code)}
             >
-              <span className="flag">{language.flag}</span>
+              <span className="flag">
+                <FlagIcon country={language.flagCode} size={16} />
+              </span>
               <span className="name">{language.name}</span>
               {currentLanguage === language.code && (
                 <Check size={16} className="check-mark" />

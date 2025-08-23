@@ -353,6 +353,13 @@
     font-weight: 600;
   }
 
+  .highlight-item svg {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    color: var(--red-primary);
+  }
+
   .stats-row {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
@@ -1594,9 +1601,11 @@
   .feature-item {
     padding: 1rem;
     gap: 0.8rem;
-    flex-direction: column;
-  text-align: center;
-}
+    flex-direction: row !important;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .feature-item .feature-icon {
     padding: 0.3rem;
@@ -1996,6 +2005,21 @@
   font-weight: 600;
   color: var(--black-deep);
   font-size: 0.95rem;
+  flex: 1;
+}
+
+.feature-icon {
+  color: var(--red-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover .feature-icon {
+  transform: scale(1.1);
+  color: var(--red-dark);
 }
 
 .highlight-cta {
@@ -2052,6 +2076,36 @@
     grid-template-columns: 1fr;
   }
 
+  /* Asegurar que los ingredientes se vean en fila horizontal en tablets */
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.7rem;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+
+  .feature-item span {
+    font-size: 0.9rem;
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .feature-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .feature-icon svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+
   .stats-row {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -2068,6 +2122,58 @@
   .stats-row .stat-item p {
     font-size: 0.9rem;
     line-height: 1.3;
+  }
+
+  /* Forzar layout horizontal para ingredientes en tablets */
+  .benefits .features-list {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .benefits .features-list .feature-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    text-align: left !important;
+    gap: 0.8rem !important;
+    padding: 0.9rem !important;
+    min-height: 48px;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .benefits .features-list .feature-item span {
+    flex: 1 !important;
+    font-size: 0.9rem !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    min-width: 0 !important;
+  }
+
+  .benefits .features-list .feature-icon {
+    flex-shrink: 0 !important;
+    width: 26px !important;
+    height: 26px !important;
+    overflow: visible !important;
+  }
+
+  .benefits .features-list .feature-icon svg {
+    width: 22px !important;
+    height: 22px !important;
+    overflow: visible !important;
+  }
+
+  /* Contenedor principal sin scroll en tablets */
+  .benefits .highlight-card {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 }
 
@@ -2223,8 +2329,90 @@
     scroll-margin-top: 85px;
   }
 
+  /* Asegurar que los ingredientes se vean en fila horizontal en móvil */
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+
+  .feature-item span {
+    font-size: 0.85rem;
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .feature-icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+  }
+
+  .feature-icon svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
   .contact {
     scroll-margin-top: 85px;
+  }
+
+  /* Forzar layout horizontal para ingredientes en móvil */
+  .benefits .features-list {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .benefits .features-list .feature-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    text-align: left !important;
+    gap: 0.6rem !important;
+    padding: 0.8rem !important;
+    min-height: 44px;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .benefits .features-list .feature-item span {
+    flex: 1 !important;
+    font-size: 0.85rem !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    min-width: 0 !important;
+  }
+
+  .benefits .features-list .feature-icon {
+    flex-shrink: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    overflow: visible !important;
+  }
+
+  .benefits .features-list .feature-icon svg {
+    width: 20px !important;
+    height: 20px !important;
+    overflow: visible !important;
+  }
+
+  /* Contenedor principal sin scroll */
+  .benefits .highlight-card {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 }
 
@@ -3029,6 +3217,43 @@
 
   .product-name-main {
     font-size: 2.8rem;
+  }
+
+  /* Estilos específicos para highlight-items en móvil */
+  .product-highlights {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.8rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .highlight-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.8rem !important;
+    padding: 0.8rem !important;
+    margin-bottom: 0 !important;
+    background: rgba(200, 16, 46, 0.05) !important;
+    border-radius: 10px !important;
+    border-left: 4px solid var(--red-primary) !important;
+    font-size: 0.9rem !important;
+    text-align: left !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .highlight-item span {
+    font-weight: 600 !important;
+    color: var(--black-deep) !important;
+    font-size: 0.9rem !important;
+    flex: 1 !important;
+  }
+
+  .highlight-item svg {
+    flex-shrink: 0 !important;
+    width: 18px !important;
+    height: 18px !important;
+    color: var(--red-primary) !important;
   }
 
   .features-grid {

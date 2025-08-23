@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Zap, Heart, Shield, Star, Users, Award } from 'lucide-react'
+import { Zap, Heart, Shield, Star, Users, Award, Droplets, Pill, Activity, Dna, Sparkles } from 'lucide-react'
 import { useTranslation } from '../hooks/useTranslation'
 
 const Benefits = ({ isLoaded = true }) => {
@@ -45,12 +45,30 @@ const Benefits = ({ isLoaded = true }) => {
   ]
 
   const features = [
-    t('benefits.ingredients.iron'),
-    t('benefits.ingredients.vitaminC'),
-    t('benefits.ingredients.vitaminB12'),
-    t('benefits.ingredients.folicAcid'),
-    t('benefits.ingredients.zinc'),
-    t('benefits.ingredients.flavor')
+    {
+      name: t('benefits.ingredients.iron'),
+      icon: Droplets // Hierro Bisglicinato
+    },
+    {
+      name: t('benefits.ingredients.vitaminC'),
+      icon: Shield // Vitamina C
+    },
+    {
+      name: t('benefits.ingredients.vitaminB12'),
+      icon: Activity // Vitamina B12
+    },
+    {
+      name: t('benefits.ingredients.folicAcid'),
+      icon: Dna // Ácido Fólico
+    },
+    {
+      name: t('benefits.ingredients.zinc'),
+      icon: Sparkles // Zinc
+    },
+    {
+      name: t('benefits.ingredients.flavor'),
+      icon: Heart // Sabor natural a fresa
+    }
   ]
 
   // Configuración de animación basada en el estado de carga
@@ -126,7 +144,10 @@ const Benefits = ({ isLoaded = true }) => {
                 {features.map((feature, index) => (
                   <div key={index} className="feature-item">
                     <div className="feature-bullet"></div>
-                    <span>{feature}</span>
+                    <span>{feature.name}</span>
+                    <div className="feature-icon">
+                      <feature.icon size={18} />
+                    </div>
                   </div>
                 ))}
               </div>

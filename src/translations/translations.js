@@ -11,7 +11,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: "Gomitas con Hierro, Vitaminas y Minerales",
-      subtitle: "La solución más efectiva y deliciosa para combatir la anemia en el Perú. Gomitas masticables con hierro bisglicinato de alta absorción.",
+      subtitle: "La solución más efectiva y deliciosa para complementar las estrategias de salud pública frente a la anemia en el Perú. Gomitas masticables con hierro bisglicinato de alta absorción.",
       features: {
         iron: "Hierro de Alta Absorción",
         vitamins: "Vitaminas y Minerales",
@@ -27,10 +27,10 @@ export const translations = {
     about: {
       title: "¿QUÉ ES",
       titleHighlight: "FERROGUM?",
-      subtitle: "Nueva generación de producto nutricional diseñado para proporcionar micronutrientes clave en presentaciones de alta aceptación y fácil consumo.",
+      subtitle: "Es un producto nutricional de nueva generación, diseñado para proporcionar micronutrientes clave en presentaciones de alta aceptación y fácil consumo.",
       innovativeFormat: {
         title: "Formato Innovador",
-        description: "Su formato masticable tipo gomita promueve la adherencia, especialmente en poblaciones con baja tolerancia a otras presentaciones de hierro. Diseñado para combatir la anemia de manera efectiva y deliciosa."
+        description: "Su formato masticable tipo gomita promueve la adherencia, especialmente en poblaciones con baja tolerancia a otras presentaciones de hierro. Diseñado para actuar como complemento eficaz en estrategias de salud pública nacionales, regionales, descentralizadas, comunitarias o educativas contra la anemia."
       },
       advancedFormula: {
         title: "Fórmula Avanzada",
@@ -39,15 +39,15 @@ export const translations = {
       features: {
         bioavailability: {
           title: "Alta Biodisponibilidad",
-          description: "Hierro Bisglicinato con absorción superior al hierro convencional."
+          description: "Hierro Bisglicinato con absorción superior al hierro convencional (sulfato ferroso)."
         },
         tolerance: {
           title: "Excelente Tolerancia",
-          description: "No causa náuseas, estreñimiento o gastritis como los suplementos convencionales."
+          description: "No causa náuseas, estreñimiento, gastritis ni efectos secundarios asociados al consumo de hierro convencional."
         },
         scientific: {
           title: "Respaldado Científicamente",
-          description: "Estudio clínico Petry et al. (2023) con 336 niños en Tanzania."
+          description: "Estudios internacionales respaldan el hierro bisglicinato y el formato gomita para mejorar la adherencia."
         }
       },
       clinicalResults: {
@@ -64,7 +64,7 @@ export const translations = {
     // Benefits Section
     benefits: {
       title: "Ventajas Diferenciales Clave",
-      subtitle: "Descubre por qué FERROGUM es la mejor opción para combatir la anemia en el Perú.",
+      subtitle: "Descubre por qué FERROGUM es la forma más efectiva y deliciosa de cuidar tus niveles de hierro.",
       benefits: [
         {
           title: "Alta Absorción",
@@ -72,7 +72,7 @@ export const translations = {
         },
         {
           title: "Sabor y Forma Atractiva",
-          description: "Gomitas libres de azúcar con sabor a frutas naturales que facilitan la adherencia al tratamiento, especialmente en niños."
+          description: "Gomitas libres de azúcar con sabor natural a fresa que facilitan la adherencia al tratamiento, especialmente en niños."
         },
         {
           title: "Seguridad Garantizada",
@@ -87,8 +87,8 @@ export const translations = {
           description: "Formulación adecuada para niños desde los 4 años de edad, gestantes, adultos y adultos mayores."
         },
         {
-          title: "Certificación Digesa",
-          description: "Producto registrado y certificado por la Dirección General de Salud Ambiental e Inocuidad Alimentaria, cumpliendo estándares de calidad nacionales."
+          title: "Certificación DIGESA",
+          description: "Producto registrado y certificado por la Dirección General de Salud Ambiental e Inocuidad Alimentaria, cumpliendo estándares de calidad nacionales e internacionales."
         }
       ],
       containsTitle: "¿Qué contiene FERROGUM?",
@@ -98,7 +98,7 @@ export const translations = {
         vitaminB12: "Vitamina B12",
         folicAcid: "Ácido Fólico",
         zinc: "Zinc",
-        flavor: "Sabor natural a frutas"
+        flavor: "Sabor natural a fresa"
       },
       clinicalStats: {
         hemoglobin: "Incremento promedio en hemoglobina",
@@ -117,11 +117,11 @@ export const translations = {
       subtitle: "FERROGUM - Las mejores gomitas de hierro para combatir la anemia en el Perú",
       name: "FERROGUM",
       tagline: "Gomitas de Hierro para Toda la Familia",
-      description: "FERROGUM es una innovadora formulación en formato de gomitas que combina hierro de alta biodisponibilidad con vitaminas y minerales esenciales. Diseñado específicamente para combatir la anemia en el Perú, nuestro producto ofrece una solución efectiva, segura y atractiva para toda la familia.",
+      description: "FERROGUM es una innovadora formulación en formato de gomitas que combina hierro de alta biodisponibilidad con vitaminas y minerales esenciales. Diseñado para complementar las estrategias de salud pública contra la anemia en el Perú, nuestro producto ofrece una solución efectiva, segura y atractiva para toda la familia.",
       highlights: {
         iron: "Hierro Bisglicinato de alta absorción",
-        certified: "Certificado por Digesa",
-        available: "Disponible en todo Perú",
+        certified: "Certificado por DIGESA",
+        duration: "Alta duración de 24 meses",
         safe: "Sin efectos secundarios",
         sugarFree: "Libre de azúcar"
       },
@@ -154,7 +154,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "Combatimos la anemia en el Perú con las mejores gomitas de hierro, diseñadas para toda la familia con ingredientes naturales y libres de azúcar.",
+      description: "Somos el mejor aliado para las estrategias de salud pública, con gomitas de hierro que apoyan una mejor nutrición en toda la familia, elaboradas con ingredientes naturales y libres de azúcar.",
       contact: {
         title: "Contacto",
         phone: "+51 936 928 155",
@@ -181,7 +181,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: "Iron, Vitamins and Minerals Gummies",
-      subtitle: "The most effective and delicious solution to fight anemia in Peru. Chewable gummies with high-absorption iron bisglycinate.",
+      subtitle: "The most effective and delicious solution to complement public health strategies against anemia in Peru. Chewable gummies with high-absorption iron bisglycinate.",
       features: {
         iron: "High Absorption Iron",
         vitamins: "Vitamins and Minerals",
@@ -197,10 +197,10 @@ export const translations = {
     about: {
       title: "WHAT IS",
       titleHighlight: "FERROGUM?",
-      subtitle: "New generation nutritional product designed to provide key micronutrients in highly acceptable and easy-to-consume presentations.",
+      subtitle: "It is a new generation nutritional product, designed to provide key micronutrients in highly acceptable and easy-to-consume presentations.",
       innovativeFormat: {
         title: "Innovative Format",
-        description: "Its chewable gummy format promotes adherence, especially in populations with low tolerance to other iron presentations. Designed to fight anemia effectively and deliciously."
+        description: "Its chewable gummy format promotes adherence, especially in populations with low tolerance to other iron presentations. Designed to act as an effective complement in national, regional, decentralized, community or educational public health strategies against anemia."
       },
       advancedFormula: {
         title: "Advanced Formula",
@@ -209,15 +209,15 @@ export const translations = {
       features: {
         bioavailability: {
           title: "High Bioavailability",
-          description: "Iron Bisglycinate with superior absorption than conventional iron."
+          description: "Iron Bisglycinate with superior absorption than conventional iron (ferrous sulfate)."
         },
         tolerance: {
           title: "Excellent Tolerance",
-          description: "Does not cause nausea, constipation or gastritis like conventional supplements."
+          description: "Does not cause nausea, constipation, gastritis or side effects associated with conventional iron consumption."
         },
         scientific: {
           title: "Scientifically Backed",
-          description: "Clinical study Petry et al. (2023) with 336 children in Tanzania."
+          description: "International studies support iron bisglycinate and gummy format to improve adherence."
         }
       },
       clinicalResults: {
@@ -234,7 +234,7 @@ export const translations = {
     // Benefits Section
     benefits: {
       title: "Key Differential Advantages",
-      subtitle: "Discover why FERROGUM is the best option to fight anemia in Peru.",
+      subtitle: "Discover why FERROGUM is the most effective and delicious way to take care of your iron levels.",
       benefits: [
         {
           title: "High Absorption",
@@ -242,7 +242,7 @@ export const translations = {
         },
         {
           title: "Attractive Taste and Form",
-          description: "Sugar-free gummies with natural fruit flavor that facilitate treatment adherence, especially in children."
+          description: "Sugar-free gummies with natural strawberry flavor that facilitate treatment adherence, especially in children."
         },
         {
           title: "Guaranteed Safety",
@@ -257,8 +257,8 @@ export const translations = {
           description: "Formulation suitable for children from 4 years of age, pregnant women, adults and elderly."
         },
         {
-          title: "Digesa Certification",
-          description: "Product registered and certified by the General Directorate of Environmental Health and Food Safety, meeting national quality standards."
+          title: "DIGESA Certification",
+          description: "Product registered and certified by the General Directorate of Environmental Health and Food Safety, meeting national and international quality standards."
         }
       ],
       containsTitle: "What does FERROGUM contain?",
@@ -268,7 +268,7 @@ export const translations = {
         vitaminB12: "Vitamin B12",
         folicAcid: "Folic Acid",
         zinc: "Zinc",
-        flavor: "Natural fruit flavor"
+        flavor: "Natural strawberry flavor"
       },
       clinicalStats: {
         hemoglobin: "Average increase in hemoglobin",
@@ -287,11 +287,11 @@ export const translations = {
       subtitle: "FERROGUM - The best iron gummies to fight anemia in Peru",
       name: "FERROGUM",
       tagline: "Iron Gummies for the Whole Family",
-      description: "FERROGUM is an innovative gummy formulation that combines high bioavailability iron with essential vitamins and minerals. Specifically designed to fight anemia in Peru, our product offers an effective, safe and attractive solution for the whole family.",
+      description: "FERROGUM is an innovative gummy formulation that combines high bioavailability iron with essential vitamins and minerals. Designed to complement public health strategies against anemia in Peru, our product offers an effective, safe and attractive solution for the whole family.",
       highlights: {
         iron: "High absorption Iron Bisglycinate",
-        certified: "Certified by Digesa",
-        available: "Available throughout Peru",
+        certified: "Certified by DIGESA",
+        duration: "High duration of 24 months",
         safe: "No side effects",
         sugarFree: "Sugar free"
       },
@@ -324,7 +324,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "We fight anemia in Peru with the best iron gummies, designed for the whole family with natural ingredients and sugar free.",
+      description: "We are the best ally for public health strategies, with iron gummies that support better nutrition for the whole family, made with natural ingredients and sugar free.",
       contact: {
         title: "Contact",
         phone: "+51 936 928 155",
@@ -351,7 +351,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: "铁、维生素和矿物质软糖",
-      subtitle: "秘鲁对抗贫血最有效和美味的解决方案。含有高吸收双甘氨酸铁的可咀嚼软糖。",
+      subtitle: "最有效和美味的解决方案，用于补充秘鲁针对贫血的公共卫生策略。含有高吸收双甘氨酸铁的可咀嚼软糖。",
       features: {
         iron: "高吸收铁",
         vitamins: "维生素和矿物质",
@@ -367,10 +367,10 @@ export const translations = {
     about: {
       title: "什么是",
       titleHighlight: "FERROGUM？",
-      subtitle: "新一代营养产品，旨在以高接受度和易于消费的形式提供关键微量营养素。",
+      subtitle: "这是一种新一代营养产品，旨在以高接受度和易于消费的形式提供关键微量营养素。",
       innovativeFormat: {
         title: "创新格式",
-        description: "其可咀嚼软糖格式促进依从性，特别是在对其他铁制剂耐受性低的人群中。设计用于有效且美味地对抗贫血。"
+        description: "其可咀嚼软糖格式促进依从性，特别是在对其他铁制剂耐受性低的人群中。设计作为国家、地区、分散、社区或教育公共卫生策略对抗贫血的有效补充。"
       },
       advancedFormula: {
         title: "先进配方",
@@ -379,15 +379,15 @@ export const translations = {
       features: {
         bioavailability: {
           title: "高生物利用度",
-          description: "双甘氨酸铁比传统铁具有更优越的吸收性。"
+          description: "双甘氨酸铁比传统铁具有更优越的吸收性（硫酸亚铁）。"
         },
         tolerance: {
           title: "优异耐受性",
-          description: "不会像传统补充剂那样引起恶心、便秘或胃炎。"
+          description: "不会引起恶心、便秘、胃炎或与传统铁消费相关的副作用。"
         },
         scientific: {
           title: "科学支持",
-          description: "Petry等人(2023)在坦桑尼亚对336名儿童进行的临床研究。"
+          description: "国际研究支持双甘氨酸铁和软糖格式以提高依从性。"
         }
       },
       clinicalResults: {
@@ -404,7 +404,7 @@ export const translations = {
     // Benefits Section
     benefits: {
       title: "关键差异化优势",
-      subtitle: "发现为什么FERROGUM是秘鲁对抗贫血的最佳选择。",
+      subtitle: "发现为什么FERROGUM是照顾您铁水平最有效和美味的方式。",
       benefits: [
         {
           title: "高吸收性",
@@ -412,7 +412,7 @@ export const translations = {
         },
         {
           title: "吸引人的口感和形状",
-          description: "无糖天然水果味软糖，有助于治疗依从性，特别是儿童。"
+          description: "无糖天然草莓味软糖，有助于治疗依从性，特别是儿童。"
         },
         {
           title: "保证安全",
@@ -427,8 +427,8 @@ export const translations = {
           description: "适合4岁以上儿童、孕妇、成人和老年人的配方。"
         },
         {
-          title: "Digesa认证",
-          description: "秘鲁环境健康与食品安全总局注册和认证产品，符合国家质量标准。"
+          title: "DIGESA认证",
+          description: "秘鲁环境健康与食品安全总局注册和认证产品，符合国家和国际质量标准。"
         }
       ],
       containsTitle: "FERROGUM含有什么？",
@@ -438,7 +438,7 @@ export const translations = {
         vitaminB12: "维生素B12",
         folicAcid: "叶酸",
         zinc: "锌",
-        flavor: "天然水果味"
+        flavor: "天然草莓味"
       },
       clinicalStats: {
         hemoglobin: "血红蛋白平均增长",
@@ -457,11 +457,11 @@ export const translations = {
       subtitle: "FERROGUM - 秘鲁对抗贫血的最佳铁软糖",
       name: "FERROGUM",
       tagline: "全家人的铁软糖",
-      description: "FERROGUM是一种创新的软糖配方，结合了高生物利用度的铁和必需维生素矿物质。专为对抗秘鲁贫血而设计，我们的产品为全家人提供有效、安全且有吸引力的解决方案。",
+      description: "FERROGUM是一种创新的软糖配方，结合了高生物利用度的铁和必需维生素矿物质。设计用于补充秘鲁针对贫血的公共卫生策略，我们的产品为全家人提供有效、安全且有吸引力的解决方案。",
       highlights: {
         iron: "高吸收双甘氨酸铁",
-        certified: "Digesa认证",
-        available: "秘鲁全国可购买",
+        certified: "DIGESA认证",
+        duration: "24个月高持续时间",
         safe: "无副作用",
         sugarFree: "无糖"
       },
@@ -494,7 +494,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "我们用最好的铁软糖对抗秘鲁的贫血，采用天然成分和无糖配方，专为全家人设计。",
+      description: "我们是公共卫生策略的最佳盟友，提供支持全家人更好营养的铁软糖，采用天然成分制作，无糖配方。",
       contact: {
         title: "联系方式",
         phone: "+51 936 928 155",
