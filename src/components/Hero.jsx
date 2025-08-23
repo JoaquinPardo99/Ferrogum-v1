@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Zap, Shield, Heart } from 'lucide-react'
+import { Zap, Shield, Heart, Ban } from 'lucide-react'
 import { useTranslation } from '../hooks/useTranslation'
 
 const Hero = ({ isLoaded = true }) => {
@@ -54,6 +54,10 @@ const Hero = ({ isLoaded = true }) => {
               <div className="hero-feature">
                 <Heart size={20} />
                 <span>{t('hero.features.flavor')}</span>
+              </div>
+              <div className="hero-feature">
+                <Ban size={20} />
+                <span>{t('hero.features.sugarFree')}</span>
               </div>
             </div>
 

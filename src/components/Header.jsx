@@ -2,6 +2,7 @@ import React from 'react'
 import { Menu, X } from 'lucide-react'
 import LanguageDropdown from './LanguageDropdown'
 import MobileLanguageSelector from './MobileLanguageSelector'
+import HeartGummyLogo from './HeartGummyLogo'
 import { useTranslation } from '../hooks/useTranslation'
 import { useMenu } from '../contexts/MenuContext'
 
@@ -30,7 +31,7 @@ const Header = () => {
           <div className="header-logo">
             <div className="logo-container">
               <div className="logo-icon">
-                <div className="logo-drop-icon"></div>
+                <HeartGummyLogo size={100} />
               </div>
               <div className="logo-text">
                 <h2 className="logo-title">FERROGUM</h2>
@@ -43,8 +44,8 @@ const Header = () => {
             <ul className="nav-links">
               <li><a href="#inicio">{t('header.home')}</a></li>
               <li><a href="#nosotros">{t('header.about')}</a></li>
-              <li><a href="#beneficios">{t('header.benefits')}</a></li>
               <li><a href="#productos">{t('header.products')}</a></li>
+              <li><a href="#beneficios">{t('header.benefits')}</a></li>
               <li><a href="#contacto">{t('header.contact')}</a></li>
             </ul>
           </nav>
@@ -85,18 +86,18 @@ const Header = () => {
               <button 
                 type="button"
                 className="nav-mobile-link" 
-                onClick={(e) => handleMobileNavClick(e, 'beneficios')}
+                onClick={(e) => handleMobileNavClick(e, 'productos')}
               >
-{t('header.benefits')}
+{t('header.products')}
               </button>
             </li>
             <li>
               <button 
                 type="button"
                 className="nav-mobile-link" 
-                onClick={(e) => handleMobileNavClick(e, 'productos')}
+                onClick={(e) => handleMobileNavClick(e, 'beneficios')}
               >
-{t('header.products')}
+{t('header.benefits')}
               </button>
             </li>
             <li>

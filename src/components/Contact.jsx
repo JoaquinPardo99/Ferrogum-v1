@@ -33,20 +33,12 @@ const Contact = ({ isLoaded = true }) => {
     initial: { opacity: 0, y: 30 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0.6 },
-    viewport: { once: true },
-    whileHover: { 
-      y: -5,
-      transition: { duration: 0.3 }
-    }
+    viewport: { once: true }
   } : {
     initial: { opacity: 1, y: 0 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0 },
-    viewport: { once: true },
-    whileHover: { 
-      y: 0,
-      transition: { duration: 0 }
-    }
+    viewport: { once: true }
   }
 
   // Validación de nombre: solo letras y espacios

@@ -132,20 +132,7 @@ const Benefits = ({ isLoaded = true }) => {
               </div>
             </div>
 
-            <div className="stats-row">
-              <div className="stat-item">
-                <h4>5</h4>
-                <p>{t('benefits.stats.micronutrients')}</p>
-              </div>
-              <div className="stat-item">
-                <h4>90%+</h4>
-                <p>{t('benefits.stats.adherence')}</p>
-              </div>
-              <div className="stat-item">
-                <h4>60</h4>
-                <p>{t('benefits.stats.gummies')}</p>
-              </div>
-            </div>
+
           </motion.div>
         </div>
       </div>

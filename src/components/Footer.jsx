@@ -1,5 +1,6 @@
 import React from 'react'
 import { MapPin, Phone, Mail } from 'lucide-react'
+import HeartGummyLogo from './HeartGummyLogo'
 import { useTranslation } from '../hooks/useTranslation'
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="footer-logo">
               <div className="logo-container">
                 <div className="logo-icon">
-                  <div className="logo-drop-icon"></div>
+                  <HeartGummyLogo size={100} />
                 </div>
                 <div className="logo-text">
                   <h3 className="logo-title">FERROGUM</h3>

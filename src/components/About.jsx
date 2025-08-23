@@ -30,20 +30,12 @@ const About = ({ isLoaded = true }) => {
     initial: { opacity: 0, y: 30 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0.6, delay: 0.3 },
-    viewport: { once: true },
-    whileHover: { 
-      y: -5,
-      transition: { duration: 0.3 }
-    }
+    viewport: { once: true }
   } : {
     initial: { opacity: 1, y: 0 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0 },
-    viewport: { once: true },
-    whileHover: { 
-      y: 0,
-      transition: { duration: 0 }
-    }
+    viewport: { once: true }
   }
 
   return (
@@ -141,22 +133,7 @@ const About = ({ isLoaded = true }) => {
           </motion.div>
         </div>
 
-        <motion.div 
-          className="about-highlight"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true }}
-        >
-          <div className="about-card">
-            <div className="card-header">
-              <h3>{t('about.clinicalResults.title')}</h3>
-            </div>
-            <p>
-              {t('about.clinicalResults.description')}
-            </p>
-          </div>
-        </motion.div>
+
 
         <motion.div 
           className="stats-section"
