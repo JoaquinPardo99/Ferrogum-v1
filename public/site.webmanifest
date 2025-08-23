@@ -1,7 +1,7 @@
 {
   "name": "FERROGUM - Fuerza y Salud para el Perú",
   "short_name": "FERROGUM",
-  "description": "Gomitas de hierro para combatir la anemia en el Perú",
+  "description": "Gomitas de hierro para combatir la anemia en el Perú. Productos naturales certificados por Digesa.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -15,7 +15,7 @@
     }
   ],
   "theme_color": "#dc2626",
-  "background_color": "#ffffff",
+  "background_color": "#000000",
   "display": "standalone",
   "start_url": "/",
   "scope": "/"

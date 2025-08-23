@@ -68,7 +68,7 @@ export const translations = {
       benefits: [
         {
           title: "Alta Absorción",
-          description: "Hierro Bisglicinato altamente biodisponible, clínicamente probado, incrementa niveles de hemoglobina en 8-12 semanas."
+          description: "Hierro Bisglicinato altamente biodisponible, clínicamente probado, incrementa niveles de hemoglobina en 8 a 12 semanas."
         },
         {
           title: "Sabor y Forma Atractiva",
@@ -88,7 +88,7 @@ export const translations = {
         },
         {
           title: "Certificación Digesa",
-          description: "Producto registrado y certificado por el Ministerio de Salud del Perú, cumpliendo estándares de calidad nacionales."
+          description: "Producto registrado y certificado por la Dirección General de Salud Ambiental e Inocuidad Alimentaria, cumpliendo estándares de calidad nacionales."
         }
       ],
       containsTitle: "¿Qué contiene FERROGUM?",
@@ -154,7 +154,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "Combatimos la anemia en el Perú con las mejores gomitas de hierro, diseñadas para toda la familia con ingredientes naturales y certificación Digesa.",
+      description: "Combatimos la anemia en el Perú con las mejores gomitas de hierro, diseñadas para toda la familia con ingredientes naturales y libres de azúcar.",
       contact: {
         title: "Contacto",
         phone: "+51 936 928 155",
@@ -238,7 +238,7 @@ export const translations = {
       benefits: [
         {
           title: "High Absorption",
-          description: "Highly bioavailable Iron Bisglycinate, clinically proven, increases hemoglobin levels in 8-12 weeks."
+          description: "Highly bioavailable Iron Bisglycinate, clinically proven, increases hemoglobin levels in 8 to 12 weeks."
         },
         {
           title: "Attractive Taste and Form",
@@ -258,7 +258,7 @@ export const translations = {
         },
         {
           title: "Digesa Certification",
-          description: "Product registered and certified by the Ministry of Health of Peru, meeting national quality standards."
+          description: "Product registered and certified by the General Directorate of Environmental Health and Food Safety, meeting national quality standards."
         }
       ],
       containsTitle: "What does FERROGUM contain?",
@@ -324,7 +324,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "We fight anemia in Peru with the best iron gummies, designed for the whole family with natural ingredients and Digesa certification.",
+      description: "We fight anemia in Peru with the best iron gummies, designed for the whole family with natural ingredients and sugar free.",
       contact: {
         title: "Contact",
         phone: "+51 936 928 155",
@@ -408,7 +408,7 @@ export const translations = {
       benefits: [
         {
           title: "高吸收性",
-          description: "高生物利用度双甘氨酸铁，临床验证，8-12周内增加血红蛋白水平。"
+          description: "高生物利用度双甘氨酸铁，临床验证，8到12周内增加血红蛋白水平。"
         },
         {
           title: "吸引人的口感和形状",
@@ -428,7 +428,7 @@ export const translations = {
         },
         {
           title: "Digesa认证",
-          description: "秘鲁卫生部注册和认证产品，符合国家质量标准。"
+          description: "秘鲁环境健康与食品安全总局注册和认证产品，符合国家质量标准。"
         }
       ],
       containsTitle: "FERROGUM含有什么？",
@@ -494,7 +494,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "我们用最好的铁软糖对抗秘鲁的贫血，采用天然成分和Digesa认证，专为全家人设计。",
+      description: "我们用最好的铁软糖对抗秘鲁的贫血，采用天然成分和无糖配方，专为全家人设计。",
       contact: {
         title: "联系方式",
         phone: "+51 936 928 155",

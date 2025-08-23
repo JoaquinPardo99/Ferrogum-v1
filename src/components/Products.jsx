@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Check, Star, Zap, Heart, Ban } from 'lucide-react'
+import { Check, Star, Zap, Heart } from 'lucide-react'
 import { useTranslation } from '../hooks/useTranslation'
 
 const Products = ({ isLoaded = true }) => {
@@ -78,10 +78,6 @@ const Products = ({ isLoaded = true }) => {
                 <div className="highlight-item">
                   <Heart size={20} />
                   <span>{t('products.highlights.safe')}</span>
-                </div>
-                <div className="highlight-item">
-                  <Ban size={20} />
-                  <span>{t('products.highlights.sugarFree')}</span>
                 </div>
               </div>
             </motion.div>

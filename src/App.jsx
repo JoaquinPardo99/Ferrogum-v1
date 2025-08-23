@@ -45,8 +45,8 @@ function AppContent() {
       <main>
         <Hero isLoaded={isLoaded} />
         <About isLoaded={isLoaded} />
-        <Products isLoaded={isLoaded} />
         <Benefits isLoaded={isLoaded} />
+        <Products isLoaded={isLoaded} />
         <Contact isLoaded={isLoaded} />
       </main>
       <Footer />
