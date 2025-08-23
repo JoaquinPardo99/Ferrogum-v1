@@ -1692,9 +1692,7 @@
 }
 
 .feature-item:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-strong);
-  border-color: rgba(200, 16, 46, 0.2);
+  /* Hover effect disabled */
 }
 
 .feature-item .feature-icon {
@@ -1989,8 +1987,7 @@
 }
 
 .feature-item:hover {
-  background: rgba(200, 16, 46, 0.1);
-  transform: translateX(5px);
+  /* Hover effect disabled */
 }
 
 .feature-bullet {
@@ -2018,8 +2015,7 @@
 }
 
 .feature-item:hover .feature-icon {
-  transform: scale(1.1);
-  color: var(--red-dark);
+  /* Hover effect disabled */
 }
 
 .highlight-cta {

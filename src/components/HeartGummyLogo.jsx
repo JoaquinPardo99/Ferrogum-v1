@@ -14,7 +14,7 @@ const HeartGummyLogo = ({ size = 30, className = '' }) => {
       }}
     >
       <img
-        src="/images/gummie-logo-heart.png"
+        src="/images/gummie-logo-heart2.png"
         alt="Ferrogum Heart Logo"
         style={{
           width: '100%',
