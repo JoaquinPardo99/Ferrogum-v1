@@ -117,7 +117,7 @@ export const translations = {
       subtitle: "FERROGUM - Las mejores gomitas de hierro para combatir la anemia en el Perú",
       name: "FERROGUM",
       tagline: "Gomitas de Hierro para Toda la Familia",
-      description: "FERROGUM es una innovadora formulación en formato de gomitas que combina hierro de alta biodisponibilidad con vitaminas y minerales esenciales. Diseñado para complementar las estrategias de salud pública contra la anemia en el Perú, nuestro producto ofrece una solución efectiva, segura y atractiva para toda la familia.",
+      description: "FERROGUM es una propuesta innovadora que combina hierro de alta biodisponibilidad, con vitaminas y minerales en una presentación de fácil consumo. Este suplemento ha sido desarrollado como una alternativa práctica y segura que puede contribuir a mejorar la ingesta de micronutrientes en distintos grupos de la población, facilitando su incorporación dentro de estrategias integrales de nutrición y salud pública.",
       highlights: {
         iron: "Hierro Bisglicinato de alta absorción",
         certified: "Certificado por DIGESA",
@@ -287,7 +287,7 @@ export const translations = {
       subtitle: "FERROGUM - The best iron gummies to fight anemia in Peru",
       name: "FERROGUM",
       tagline: "Iron Gummies for the Whole Family",
-      description: "FERROGUM is an innovative gummy formulation that combines high bioavailability iron with essential vitamins and minerals. Designed to complement public health strategies against anemia in Peru, our product offers an effective, safe and attractive solution for the whole family.",
+      description: "FERROGUM is an innovative proposal that combines high bioavailability iron with vitamins and minerals in an easy-to-consume presentation. This supplement has been developed as a practical and safe alternative that can contribute to improving micronutrient intake in different population groups, facilitating its incorporation into comprehensive nutrition and public health strategies.",
       highlights: {
         iron: "High absorption Iron Bisglycinate",
         certified: "Certified by DIGESA",
@@ -457,7 +457,7 @@ export const translations = {
       subtitle: "FERROGUM - 秘鲁对抗贫血的最佳铁软糖",
       name: "FERROGUM",
       tagline: "全家人的铁软糖",
-      description: "FERROGUM是一种创新的软糖配方，结合了高生物利用度的铁和必需维生素矿物质。设计用于补充秘鲁针对贫血的公共卫生策略，我们的产品为全家人提供有效、安全且有吸引力的解决方案。",
+      description: "FERROGUM是一项创新提案，将高生物利用度铁与维生素和矿物质结合在易于食用的制剂中。这种补充剂被开发为一种实用且安全的替代方案，可以有助于改善不同人群的微量营养素摄入，促进其融入综合营养和公共卫生策略。",
       highlights: {
         iron: "高吸收双甘氨酸铁",
         certified: "DIGESA认证",
