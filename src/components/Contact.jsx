@@ -168,10 +168,7 @@ const Contact = ({ isLoaded = true }) => {
 *Teléfono:* ${formData.phone}
 
 *Mensaje:*
-${formData.message}
-
----
-Enviado desde ferrogum-peru.com`
+${formData.message}`
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
     
