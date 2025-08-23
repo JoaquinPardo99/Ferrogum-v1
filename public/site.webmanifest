@@ -1,22 +1,36 @@
 {
-  "name": "FERROGUM - Fuerza y Salud para el Perú",
+  "name": "FERROGUM - Gomitas de Hierro para Combatir la Anemia",
   "short_name": "FERROGUM",
-  "description": "Gomitas de hierro para combatir la anemia en el Perú. Productos naturales certificados por DIGESA.",
+  "description": "Gomitas de hierro bisglicinato de alta absorción certificadas por DIGESA. Libre de azúcar, para niños desde 4 años, gestantes y toda la familia. Complemento efectivo para estrategias de salud pública contra la anemia en el Perú.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "theme_color": "#dc2626",
-  "background_color": "#000000",
+  "background_color": "#ffffff",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "start_url": "/",
-  "scope": "/"
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["health", "medical", "nutrition"],
+  "screenshots": [
+    {
+      "src": "/images/ferrogum-jar-demo.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
 }
