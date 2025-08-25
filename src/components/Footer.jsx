@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer-logo">
               <div className="logo-container">
                 <div className="logo-icon">
-                  <HeartGummyLogo size={100} />
+                  <HeartGummyLogo size={60} />
                 </div>
                 <div className="logo-text">
                   <h3 className="logo-title">FERROGUM</h3>

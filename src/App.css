@@ -783,8 +783,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   flex-shrink: 0;
 }
 
@@ -2230,9 +2230,11 @@
     overflow-x: hidden;
   }
 
-  body {
-    overflow-x: hidden;
-    width: 100%;
+  html, body {
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    width: 100% !important;
+    height: auto !important;
   }
 
   .container {
@@ -2259,21 +2261,38 @@
 
   /* Hero sin altura fija para evitar scroll interno */
   .hero {
-    min-height: auto;
-    height: auto;
-    padding-top: 120px;
-    padding-bottom: 80px;
-    overflow: visible;
+    min-height: auto !important;
+    height: auto !important;
+    padding-top: 120px !important;
+    padding-bottom: 80px !important;
+    overflow: visible !important;
   }
 
   /* Hero subtitle sin scroll interno */
   .hero-subtitle {
-    overflow: visible;
-    max-height: none;
-    height: auto;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    hyphens: auto;
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.4 !important;
+    font-size: 1rem !important;
+  }
+
+  /* Contenedor del hero sin scroll */
+  .hero-content {
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+  }
+
+  .hero-text {
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
   }
 
   .image-carousel {
@@ -2409,6 +2428,27 @@
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
+  }
+
+  /* Logo específico para evitar scroll vertical en 390px */
+  .logo-icon {
+    width: 55px !important;
+    height: 55px !important;
+    overflow: hidden !important;
+    flex-shrink: 0 !important;
+  }
+
+  .heart-gummy-logo {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .heart-gummy-logo img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    overflow: hidden !important;
   }
 }
 
@@ -3407,7 +3447,11 @@
   }
 
   .benefits-header {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .benefits .section-subtitle {
+    margin-top: 0.5rem;
   }
 
   .form-header {
@@ -3499,7 +3543,11 @@
   }
 
   .benefits-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .benefits .section-subtitle {
+    margin-top: 0.5rem;
   }
 
   .form-header {
@@ -3592,8 +3640,8 @@
   }
 
   .logo-icon {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
   }
 
   .logo-drop-icon {

@@ -5,8 +5,8 @@ const HeartGummyLogo = ({ size = 30, className = '' }) => {
     <div 
       className={`heart-gummy-logo ${className}`}
       style={{
-        width: '100%',
-        height: '100%',
+        width: `${size}px`,
+        height: `${size}px`,
         position: 'relative',
         display: 'flex',
         alignItems: 'center',

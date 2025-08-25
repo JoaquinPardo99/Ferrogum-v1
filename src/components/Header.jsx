@@ -31,7 +31,7 @@ const Header = () => {
           <div className="header-logo">
             <div className="logo-container">
               <div className="logo-icon">
-                <HeartGummyLogo size={100} />
+                <HeartGummyLogo size={60} />
               </div>
               <div className="logo-text">
                 <h2 className="logo-title">FERROGUM</h2>
